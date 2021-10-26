@@ -47,16 +47,16 @@ def handle_client(conn, addr):
     print(f"Hello client {addr}")
     rows,cols = (8,8)
     board = [['0' for i in range(cols)] for j in range(rows)]
-    # row_start = randint(0,7)
-    # col_start = randint(0,7)
-    # row_stop = randint(0,7)
-    # col_stop = randint(0,7)
+    row_start = randint(0,7)
+    col_start = randint(0,7)
+    row_stop = randint(0,7)
+    col_stop = randint(0,7)
 
     doing_well = False
-    row_start = 4
-    col_start = 0
-    row_stop = 1
-    col_stop = 2
+    # row_start = 4
+    # col_start = 0
+    # row_stop = 1
+    # col_stop = 2
     board[row_start][col_start] = 'S'
     board[row_stop][col_stop] = 'F'
     show_chessboard(board)     #shows the initial chess board
