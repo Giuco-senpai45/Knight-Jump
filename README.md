@@ -1,4 +1,4 @@
-# Horse-Jump
+# Knight-Jump
 # This project is an exercise for socket programming where the server and client communicate through a TCP/IP connection.
 
 ## The game is the following:
